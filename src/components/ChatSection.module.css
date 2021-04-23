@@ -1,5 +1,5 @@
 .root {
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
   background-size: cover;
   position: relative;
@@ -16,7 +16,6 @@
   transform-origin: center top;
   box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
   margin-top: 4px;
-  max-width: calc(100% - 120px);
 }
 
 .message_title {

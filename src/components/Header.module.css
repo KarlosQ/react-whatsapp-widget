@@ -30,7 +30,6 @@
 .texts {
   color: rgb(255, 255, 255);
   margin-left: 16px;
-  margin-right: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,4 +46,17 @@
   font-size: 13px;
   line-height: 18px;
   margin-top: 4px;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+  .close_btn {
+    font-size: 1.2em;
+  }
+  .texts {
+    margin-left: 8px;
+  }
 }
